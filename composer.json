@@ -1,0 +1,32 @@
+{
+    "name": "kiff/kiff",
+    "type": "project",
+    "description": "The Kiff project is a simple, yet powerful, framework for building Web applications in PHP",
+    "keywords": [
+        "kiff",
+        "framework",
+        "web",
+        "application",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SIGUI Kessé Emmanuel",
+            "email": "opensource@sikessem.com",
+            "homepage": "https://sikessem.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.22",
+        "sikessem/capsule": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kiff\\": "src/"
+        }
+    },
+    "bin": "./kiff",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
